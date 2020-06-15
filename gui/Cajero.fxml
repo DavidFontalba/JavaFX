@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" prefHeight="312.0" prefWidth="359.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="ejercicios.gui.ContCajero">
+   <children>
+      <HBox alignment="CENTER" prefHeight="1.0" prefWidth="200.0">
+         <children>
+            <Label prefHeight="16.0" prefWidth="68.0" text="Total" />
+            <TextField fx:id="total" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="54.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#calc" text="Cambiar" />
+         </children>
+      </HBox>
+      <GridPane alignment="CENTER" hgap="3.0" vgap="3.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="500€" />
+                  <TextField fx:id="quinientosE" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="100€" />
+                  <TextField fx:id="cienE" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="200€" />
+                  <TextField fx:id="doscientosE" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="50€" />
+                  <TextField fx:id="cincuentaE" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="20€" />
+                  <TextField fx:id="veinteE" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="10€" />
+                  <TextField fx:id="diezE" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.rowIndex="3">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="5€" />
+                  <TextField fx:id="cincoE" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="50c" />
+                  <TextField fx:id="cincuentaC" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.rowIndex="4">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="1€" />
+                  <TextField fx:id="unE" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="2€" />
+                  <TextField fx:id="dosE" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.rowIndex="5">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="20c" />
+                  <TextField fx:id="veinteC" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="10c" />
+                  <TextField fx:id="diezC" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.rowIndex="6">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="5c" />
+                  <TextField fx:id="cincoC" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="2c" />
+                  <TextField fx:id="dosC" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="1.0" prefWidth="200.0" GridPane.rowIndex="7">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="38.0" text="1c" />
+                  <TextField fx:id="unC" editable="false" prefHeight="26.0" prefWidth="57.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </GridPane>
+   </children>
+</VBox>
